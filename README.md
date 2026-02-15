@@ -49,8 +49,8 @@ Its focus is strictly on **locomotion, control, and simulation of a mobile robot
 
 Fully compatible with:
 
-- **Gazebo** – physics-based rover simulation
-- **RViz** – visualization of:
+- Gazebo – physics-based rover simulation
+- RViz – visualization of:
   - Robot model
   - Odometry
   - TF transformations
@@ -62,8 +62,6 @@ Simulation allows validating the rover’s kinematic behavior without physical h
 
 ## 🧩 Repository Structure
 
-```
-
 rover/
 │
 ├── launch/        # ROS 2 launch files
@@ -73,6 +71,10 @@ rover/
 ├── rviz/          # RViz visualization configs
 ├── src/           # Main source code
 └── README.md
+
+```
+
+
 
 ````
 
